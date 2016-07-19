@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		775FD6781D3EB5F5009EA0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775FD6771D3EB5F5009EA0EA /* AppDelegate.swift */; };
+		775FD67A1D3EB5F5009EA0EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775FD6791D3EB5F5009EA0EA /* ViewController.swift */; };
+		775FD67D1D3EB5F5009EA0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775FD67B1D3EB5F5009EA0EA /* Main.storyboard */; };
+		775FD6801D3EB5F5009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 775FD67E1D3EB5F5009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timer.xcdatamodeld */; };
+		775FD6821D3EB5F5009EA0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775FD6811D3EB5F5009EA0EA /* Assets.xcassets */; };
+		775FD6851D3EB5F5009EA0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775FD6831D3EB5F5009EA0EA /* LaunchScreen.storyboard */; };
+		775FD6901D3EB5F6009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775FD68F1D3EB5F6009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timerTests.swift */; };
+		775FD69B1D3EB5F6009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775FD69A1D3EB5F6009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775FD68C1D3EB5F6009EA0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775FD66C1D3EB5F5009EA0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775FD6731D3EB5F5009EA0EA;
+			remoteInfo = "super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+		};
+		775FD6971D3EB5F6009EA0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775FD66C1D3EB5F5009EA0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775FD6731D3EB5F5009EA0EA;
+			remoteInfo = "super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		775FD6741D3EB5F5009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "super-awesome-turbo-chainsaw-ios-musical-sequence-timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775FD6771D3EB5F5009EA0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		775FD6791D3EB5F5009EA0EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		775FD67C1D3EB5F5009EA0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		775FD67F1D3EB5F5009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = super_awesome_turbo_chainsaw_ios_musical_sequence_timer.xcdatamodel; sourceTree = "<group>"; };
+		775FD6811D3EB5F5009EA0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775FD6841D3EB5F5009EA0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		775FD6861D3EB5F5009EA0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775FD68B1D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775FD68F1D3EB5F6009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = super_awesome_turbo_chainsaw_ios_musical_sequence_timerTests.swift; sourceTree = "<group>"; };
+		775FD6911D3EB5F6009EA0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775FD6961D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775FD69A1D3EB5F6009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = super_awesome_turbo_chainsaw_ios_musical_sequence_timerUITests.swift; sourceTree = "<group>"; };
+		775FD69C1D3EB5F6009EA0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775FD6711D3EB5F5009EA0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FD6881D3EB5F6009EA0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FD6931D3EB5F6009EA0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		775FD66B1D3EB5F5009EA0EA = {
+			isa = PBXGroup;
+			children = (
+				775FD6761D3EB5F5009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timer */,
+				775FD68E1D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests */,
+				775FD6991D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests */,
+				775FD6751D3EB5F5009EA0EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775FD6751D3EB5F5009EA0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775FD6741D3EB5F5009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timer.app */,
+				775FD68B1D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests.xctest */,
+				775FD6961D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775FD6761D3EB5F5009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timer */ = {
+			isa = PBXGroup;
+			children = (
+				775FD6771D3EB5F5009EA0EA /* AppDelegate.swift */,
+				775FD6791D3EB5F5009EA0EA /* ViewController.swift */,
+				775FD67B1D3EB5F5009EA0EA /* Main.storyboard */,
+				775FD6811D3EB5F5009EA0EA /* Assets.xcassets */,
+				775FD6831D3EB5F5009EA0EA /* LaunchScreen.storyboard */,
+				775FD6861D3EB5F5009EA0EA /* Info.plist */,
+				775FD67E1D3EB5F5009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timer.xcdatamodeld */,
+			);
+			path = "super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+			sourceTree = "<group>";
+		};
+		775FD68E1D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests */ = {
+			isa = PBXGroup;
+			children = (
+				775FD68F1D3EB5F6009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timerTests.swift */,
+				775FD6911D3EB5F6009EA0EA /* Info.plist */,
+			);
+			path = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests";
+			sourceTree = "<group>";
+		};
+		775FD6991D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				775FD69A1D3EB5F6009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timerUITests.swift */,
+				775FD69C1D3EB5F6009EA0EA /* Info.plist */,
+			);
+			path = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775FD6731D3EB5F5009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775FD69F1D3EB5F6009EA0EA /* Build configuration list for PBXNativeTarget "super-awesome-turbo-chainsaw-ios-musical-sequence-timer" */;
+			buildPhases = (
+				775FD6701D3EB5F5009EA0EA /* Sources */,
+				775FD6711D3EB5F5009EA0EA /* Frameworks */,
+				775FD6721D3EB5F5009EA0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+			productName = "super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+			productReference = 775FD6741D3EB5F5009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775FD68A1D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775FD6A21D3EB5F6009EA0EA /* Build configuration list for PBXNativeTarget "super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests" */;
+			buildPhases = (
+				775FD6871D3EB5F6009EA0EA /* Sources */,
+				775FD6881D3EB5F6009EA0EA /* Frameworks */,
+				775FD6891D3EB5F6009EA0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775FD68D1D3EB5F6009EA0EA /* PBXTargetDependency */,
+			);
+			name = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests";
+			productName = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests";
+			productReference = 775FD68B1D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		775FD6951D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775FD6A51D3EB5F6009EA0EA /* Build configuration list for PBXNativeTarget "super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests" */;
+			buildPhases = (
+				775FD6921D3EB5F6009EA0EA /* Sources */,
+				775FD6931D3EB5F6009EA0EA /* Frameworks */,
+				775FD6941D3EB5F6009EA0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775FD6981D3EB5F6009EA0EA /* PBXTargetDependency */,
+			);
+			name = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests";
+			productName = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests";
+			productReference = 775FD6961D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775FD66C1D3EB5F5009EA0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jeremy Hartmann";
+				TargetAttributes = {
+					775FD6731D3EB5F5009EA0EA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V5GB49GW7V;
+						DevelopmentTeamName = "Jeremy Hartmann (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					775FD68A1D3EB5F6009EA0EA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V5GB49GW7V;
+						DevelopmentTeamName = "Jeremy Hartmann (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 775FD6731D3EB5F5009EA0EA;
+					};
+					775FD6951D3EB5F6009EA0EA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V5GB49GW7V;
+						DevelopmentTeamName = "Jeremy Hartmann (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 775FD6731D3EB5F5009EA0EA;
+					};
+				};
+			};
+			buildConfigurationList = 775FD66F1D3EB5F5009EA0EA /* Build configuration list for PBXProject "super-awesome-turbo-chainsaw-ios-musical-sequence-timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775FD66B1D3EB5F5009EA0EA;
+			productRefGroup = 775FD6751D3EB5F5009EA0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775FD6731D3EB5F5009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timer */,
+				775FD68A1D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests */,
+				775FD6951D3EB5F6009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775FD6721D3EB5F5009EA0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775FD6851D3EB5F5009EA0EA /* LaunchScreen.storyboard in Resources */,
+				775FD6821D3EB5F5009EA0EA /* Assets.xcassets in Resources */,
+				775FD67D1D3EB5F5009EA0EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FD6891D3EB5F6009EA0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FD6941D3EB5F6009EA0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775FD6701D3EB5F5009EA0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775FD67A1D3EB5F5009EA0EA /* ViewController.swift in Sources */,
+				775FD6801D3EB5F5009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timer.xcdatamodeld in Sources */,
+				775FD6781D3EB5F5009EA0EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FD6871D3EB5F6009EA0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775FD6901D3EB5F6009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FD6921D3EB5F6009EA0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775FD69B1D3EB5F6009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775FD68D1D3EB5F6009EA0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775FD6731D3EB5F5009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timer */;
+			targetProxy = 775FD68C1D3EB5F6009EA0EA /* PBXContainerItemProxy */;
+		};
+		775FD6981D3EB5F6009EA0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775FD6731D3EB5F5009EA0EA /* super-awesome-turbo-chainsaw-ios-musical-sequence-timer */;
+			targetProxy = 775FD6971D3EB5F6009EA0EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		775FD67B1D3EB5F5009EA0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775FD67C1D3EB5F5009EA0EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		775FD6831D3EB5F5009EA0EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775FD6841D3EB5F5009EA0EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775FD69D1D3EB5F6009EA0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775FD69E1D3EB5F6009EA0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775FD6A01D3EB5F6009EA0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "super-awesome-turbo-chainsaw-ios-musical-sequence-timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jjhartmann.super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		775FD6A11D3EB5F6009EA0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "super-awesome-turbo-chainsaw-ios-musical-sequence-timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jjhartmann.super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		775FD6A31D3EB5F6009EA0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jjhartmann.super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/super-awesome-turbo-chainsaw-ios-musical-sequence-timer.app/super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+			};
+			name = Debug;
+		};
+		775FD6A41D3EB5F6009EA0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jjhartmann.super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/super-awesome-turbo-chainsaw-ios-musical-sequence-timer.app/super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+			};
+			name = Release;
+		};
+		775FD6A61D3EB5F6009EA0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jjhartmann.super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+			};
+			name = Debug;
+		};
+		775FD6A71D3EB5F6009EA0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jjhartmann.super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "super-awesome-turbo-chainsaw-ios-musical-sequence-timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775FD66F1D3EB5F5009EA0EA /* Build configuration list for PBXProject "super-awesome-turbo-chainsaw-ios-musical-sequence-timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775FD69D1D3EB5F6009EA0EA /* Debug */,
+				775FD69E1D3EB5F6009EA0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775FD69F1D3EB5F6009EA0EA /* Build configuration list for PBXNativeTarget "super-awesome-turbo-chainsaw-ios-musical-sequence-timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775FD6A01D3EB5F6009EA0EA /* Debug */,
+				775FD6A11D3EB5F6009EA0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		775FD6A21D3EB5F6009EA0EA /* Build configuration list for PBXNativeTarget "super-awesome-turbo-chainsaw-ios-musical-sequence-timerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775FD6A31D3EB5F6009EA0EA /* Debug */,
+				775FD6A41D3EB5F6009EA0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		775FD6A51D3EB5F6009EA0EA /* Build configuration list for PBXNativeTarget "super-awesome-turbo-chainsaw-ios-musical-sequence-timerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775FD6A61D3EB5F6009EA0EA /* Debug */,
+				775FD6A71D3EB5F6009EA0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		775FD67E1D3EB5F5009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				775FD67F1D3EB5F5009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timer.xcdatamodel */,
+			);
+			currentVersion = 775FD67F1D3EB5F5009EA0EA /* super_awesome_turbo_chainsaw_ios_musical_sequence_timer.xcdatamodel */;
+			path = super_awesome_turbo_chainsaw_ios_musical_sequence_timer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 775FD66C1D3EB5F5009EA0EA /* Project object */;
+}
